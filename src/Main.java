@@ -4,10 +4,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        final String [] choices ={"Камень", "ножницы", "бумага"};
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        int compChoice = random.nextInt(choices.length); //Генерирует случайный индекс
+        int compChoice = random.nextInt(3); //Генерирует случайный индекс
         int exit;
 
         System.out.println("Начало игры");
